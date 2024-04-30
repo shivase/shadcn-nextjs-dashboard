@@ -1,0 +1,40 @@
+{
+  "name": "shadcn-nextjs-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "shadcn": "npx shadcn-ui@latest"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "eslint": "8.56.0",
+    "lucide-react": "^0.376.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/eslint": "8.56.10",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/node": "20.12.7",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "autoprefixer": "^10.4.19",
+    "eslint-config-next": "^14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-next": "^0.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14"
+  }
+}
