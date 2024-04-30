@@ -1,6 +1,6 @@
-import { ReactNode } from 'react';
-import { Poppins } from 'next/font/google';
 import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+import { ReactNode } from 'react';
 import './globals.css';
 import { cn } from 'lib/utils';
 
